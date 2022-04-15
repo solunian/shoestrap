@@ -1,39 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap CSS -->
-    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="./css/index.css" rel="stylesheet"></link>
+  <!-- Custom CSS -->
+  <link href="./styles/index.css" rel="stylesheet">
+  </link>
 
-    <title>Pigeon</title>
+  <title>shoestrap</title>
 </head>
-<body>
-    <ul class="nav justify-content-center bg-dark">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-    <div class="container p-5 mt-5 text-white text-break border happy">
-        <h1>My First Bootstrap Page</h1>
-        <p>This container has a border and some extra padding and margins.</p>
-    </div>
 
-    <!-- Bootstrap JS -->
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<body>
+  <!-- Top Nav Bar -->
+  <ul class="nav top-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="">Explore</a>
+    </li>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+    
+    <li class="nav-item ms-auto">
+      <a class="nav-link" href="">Sign Up</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="">Login</a>
+    </li>
+  </ul>
+
+  <!-- Indigo Container -->
+  <div class="container p-5 mt-5 text-white text-break border indigo-container">
+    <h1>Indigo Container</h1>
+    <p>This indigo container has a border and some extra padding and margins.</p>
+  </div>
+
+  <div class="container mt-3">
+    <div class="row justify-content-center gx-5">
+      <div class="col-sm-3">
+        <h1 class="div-col1">I'm a h1 >:)</h1>
+      </div>
+      <div class="col-sm-5">
+        <h2 class="div-col2">I'm a h2 :(</h2>
+      </div>
+      <div class="col-sm-3">
+        <h3 class="div-col3">I'm a h3 :/</h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <ul class="nav justify-content-center bg-dark">
+    <li class="nav-item">
+      <a class="nav-link" href="">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="">FAQ</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://github.com/solunian/shoestrap" target="_blank">Github</a>
+    </li>
+  </ul>
+
+  <!-- Bootstrap JS -->
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
