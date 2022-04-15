@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "sass -w scss:styles",
+    "build": "rm -rf ./public/* && cp -r node_modules ./public/node_modules && cp index.html ./public/index.html && cp -r styles ./public/styles"
   },
   "author": "Daniel Cui",
   "license": "MIT",
